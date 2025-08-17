@@ -1,0 +1,4 @@
+callduration = input("Enter the duration of the call (in seconds): ")
+callduration = int(callduration)
+charge = (callduration /60) * 4
+print ("The charge for the call is: sh", charge)

@@ -1,0 +1,7 @@
+amount = 600000
+rate = 0.08
+time = 6
+# time is in years
+# rate is in percentage
+si = (amount * rate * time) 
+# si is simple interest

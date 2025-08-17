@@ -1,0 +1,14 @@
+name = input ("Enter your name: ")
+yw = input ("Enter years worked: ")
+yw = int(yw)
+salary = input ("Enter your salary: ")
+salary = int(salary)
+#yw is years worked
+if yw > 5 :
+ bonus =  salary * 0.05
+ bonus = int(bonus)
+ total = salary + bonus
+ total = int(total)
+ print ("Your total is: ", total)
+if(yw<5) :
+ print ("Your have not worked enough to get a bonus")
